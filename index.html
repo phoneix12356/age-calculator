@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+  <div class="outer-box">
+    <!--#########################################################-->
+    <div class="Parent-box">
+      <div class="Day-box">
+        <div class="day-text">D A Y</div>
+        <input name="Day" id="Day" class="day-js" placeholder="DD">
+        <div class = "day-error-message"> </div>
+      </div>
+      <div class="Month-box">
+        <div class="month-text">M O N T H </div>
+        <input name="Day" id="Day" class="month-js" placeholder="MM">
+        <div class = "month-error-message"> </div>
+      </div>
+      <div class="Year-box">
+        <div class="year-text">Y E A R</div>
+        <input name="Day" id="Day" class = "year-js" placeholder="YYYY">
+        <div class = "year-error-message"> </div>
+      </div>
+    </div>
+
+    <!--####################################-->
+    <div class="second-box">
+      <div>
+        <hr>
+      </div>
+      <button class="icon-1 icon-js" onclick = "func()"><img class="icon-image" src="icon-arrow.svg">
+      </button>
+    </div>
+    <!--####################################-->
+
+    <div class="Box-3">
+      <div class="box-3-1">
+        <div class="year-blue-box">
+          <div class="blue-box"></div>
+          <div class="blue-box"></div>
+        </div>
+        <div class="t1">years</div>
+      </div>
+      <div class="box-3-2">
+        <div class="month-blue-box">
+          <div class="blue-box"></div>
+          <div class="blue-box"></div>
+        </div>
+        <div class="t1">months</div>
+      </div>
+      <div class="box-3-3">
+        <div class="day-blue-box">
+          <div class="blue-box"></div>
+          <div class="blue-box"></div>
+        </div>
+        <div class="t1">days</div>
+      </div>
+    </div>
+  </div>
+  <script src="p1.js">
+  </script>
+
+</body>
+
+</html>
